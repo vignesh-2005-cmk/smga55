@@ -1,0 +1,23 @@
+.mak {
+    height: 100vh;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("cal.jpeg");
+    background-size: contain;
+
+}
+.amd {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 10px solid transparent;
+    background-color: aqua;
+    padding: 15px;
+    border-image: url("");
+    
+
+}

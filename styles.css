@@ -1,0 +1,125 @@
+
+body {
+    background-image: url("phone3.jpg");
+    background-size: cover;
+    backdrop-filter: blur(4px)
+}
+
+.head1 {
+    color: rgb(245, 230, 220);
+    font-size: x-large;
+    font-weight: 600;
+    font-size: xx-large;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 10px
+}
+
+h2 {
+    color: rgb(11, 178, 184);
+}
+
+h3 {
+    color: rgb(4, 224, 224);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+p {
+    color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ol1 {
+    color: white;
+    border-color: black;
+    column-gap: 0cm;
+}
+
+.ul1 {
+    color: beige;
+    border-color: black;
+}
+
+h4 {
+    color: aqua;
+}
+
+.f1 {
+    color: rgb(220, 245, 245);
+}
+
+h5 {
+    color: beige;
+
+}
+
+.navbar ul {
+    display: flex;
+    background-color: azure;
+    justify-content: space-around;
+    font-style: italic;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 0cqh;
+}
+
+.head1:hover {
+    color: rgb(42, 126, 165);
+    transition: 2s;
+    cursor: crosshair;
+}
+
+.hml {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    height: 100vh
+}
+
+.png {
+    height: 100vh
+    
+}
+
+
+.cls {
+    
+height:100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.fd {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.cls li{
+    font-size: xx-large;
+}
+.hml {
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    scroll-behavior: smooth;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    
+}
